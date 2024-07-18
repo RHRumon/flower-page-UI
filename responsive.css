@@ -1,0 +1,36 @@
+@media screen and (max-width:567px) {
+    .featured-image-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        gap: 50px;
+    }
+
+    .banner-text{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .banner-description{
+        font-size: 14px;
+        margin: 10px;
+        /* overflow-x: hidden; */
+    }
+
+    .header{
+        display: grid;
+    }
+    .section-4rth-flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .delivery-contents{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-image img{
+        width: 90%;
+        
+    }
+
+}

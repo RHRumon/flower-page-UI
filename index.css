@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+.button{
+    background-color: #E55473;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* banner */
+
+.header{
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-text{
+
+    padding: 155px 97px;
+}
+.banner-title{
+    font-size: 4.8rem;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* featured style  2nd*/
+
+.featured{
+    margin: 48px auto;
+}
+.featured-container{
+    justify-content: center;
+    text-align: center;
+}
+
+.featured-description{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.featured-image-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.featured-images{
+    margin: 48px 150px 48px 150px;
+}
+.caption{
+    font-weight: 700;
+}
+#image1{
+    background-color: rgba(229, 84, 115, 0.1);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding-top: 30px;
+}
+
+#image2{
+    padding-top: 85px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#image3{
+    background-color:darkgray;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    /* padding-bottom: -20px; */
+}
+
+/* 3rd section Delivery */
+
+.section-3rd{
+    background-color: bisque;
+    margin: 50px 100px;
+    padding-top: 20px;
+}
+.delivery-contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.delivery-description{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* 4rth section style */
+
+.section-4rth-flex{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-4rth{
+    background-color: rgba(229, 84, 115, 0.12);
+}
+
+.hot-deal-content{
+    text-align: center;
+    padding-top: 100px;
+}
+.hot-deal-iamge{
+    padding-top: 30px;
+}
+.hot-deal-title{
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+.hot-deal-description{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* 5th section */
+
+.section-5th{
+    margin-top: 100px;
+}
+
+.section-5th-title{
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+.section-5th-description{
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.section-5th-content{
+    text-align: center;
+}
+.section-5th-image-container{
+    margin-left: 50px;
+}
+
+/* section-6th */
+
+.section-6th{
+    margin: 100px 60px 100px 60px;
+    background-image: url(Images/Rectangle\ 9.png);
+    height: 450px;
+}
+
+.section-6th-content{
+   text-align: center;
+   padding-top: 50px;
+}
+
+.section-6th-title{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.section-6th-description{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.input-section{
+    margin-top: 50px;
+}
+
+.taking-input{
+    padding: 20px;
+    border: none;
+}
+
+.submit-btn{
+    padding: 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+/* footer */
+
+.footer-section{
+   
+    background-color: black;
+    height: 400px;
+}
+
+.footer-content{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.flower{
+    color: #E55473;
+}
+.shop{
+    color: white;
+}
+
+.footer-title{
+    font-size: 2rem;
+}
+
+.footer-description{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+}
+
+.last-line{
+    font-size: 1rem;
+    font-weight: 300;
+    color: grey
+}
+
